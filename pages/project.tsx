@@ -1,9 +1,12 @@
-import React from 'react'
+import * as React from 'react';
+import type {NextPage} from "next";
 
-function Project() {
+function ProjectPage<NextPage>() {
   return (
-    <div>Project</div>
+      <div>
+        <h1>Project Page</h1>
+      </div>
   )
 }
 
-export default Project
+export default ProjectPage;
